@@ -1,5 +1,16 @@
 function shortcut(s1, s2) {
-  // your code here
+	let str='';
+  if(s1.length>0 && s2.length>0){
+	  for(let i=0;i<1;i++){
+		  str+=s1[i];
+	  }
+	  for(let i=0;i<1;i++){
+		  str+=s2[i];
+	  }
+	  return str;
+  }else{
+	  return '';
+  }
 }
 
 // Do not change the code below.
